@@ -1,0 +1,258 @@
+      .site-view-grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 16px;
+          row-gap: 40px;
+      }
+
+      @media (max-width: 750px){
+        .site-view-grid{
+           grid-template-columns: 1fr 1fr;
+        }
+      }
+
+
+      @media (min-width: 751px) and (max-width: 999px){
+          .site-view-grid{
+              grid-template-columns: 1fr 1fr 1fr;
+          }
+      }
+
+
+      @media (min-width: 1000px){
+          .site-view-grid{
+             grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+
+      .thumbnail-container{
+          position: relative;
+      }
+
+
+      .thumbnail-1{
+          width: 100%;
+      }
+      .down-section{
+          display:grid;
+          grid-template-columns: 50px 1fr;
+
+      }
+
+      .channel-profile-pic-container{
+          margin-top: 10px;
+          position: relative;
+          
+      }
+
+      .profile-picture:hover + .subscriptions-info{
+          opacity: 1;
+      }  
+
+      .profile-picture{
+          width: 36px; 
+          border-radius: 50px;
+      }
+      .vid-info{
+         width: 100%;
+        
+      }
+
+      .vid-title{
+          font-weight: 500;
+          font-size: 12px;
+          line-height:20px;
+          margin-bottom: 8px;
+          margin-top: 10px;
+      
+      }
+      .channel-name{
+          font-size: 10px;
+          color: rgb(96, 96, 96) ;
+          margin-bottom: 4px;
+          margin-top: 8px;
+      }
+      .vid-stats{
+          font-size: 10px;
+          color: rgb(96, 96, 96);
+          margin-top: 4px;
+          margin-bottom: 8px;
+      }
+
+      .thumbnail-2{
+          width: 100%;
+      }
+
+      .thumbnail-container-2{
+         position: relative;
+      }
+
+      .second-section{
+          display:grid;
+          grid-template-columns: 50px 1fr;
+        
+      }
+      .channel-pic-container{
+          margin-top: 10px;
+          position: relative;
+      }
+
+      .profile{
+          width: 36px;
+          border-radius: 50px
+      }
+
+
+      .profile:hover + .subscriptions-info{
+         opacity: 1;
+      }  
+
+      .thumbnail-3{
+          width:100%;
+      }
+
+      .thumbnail-section{
+         position: relative;
+      }
+      .info-section{
+          display: grid;
+          grid-template-columns: 50px 1fr;
+
+      }
+      .channel-picture-container{
+          margin-top: 10px;
+      }
+      .profile-image{
+          width: 36px;
+          border-radius: 50px;
+      }
+
+      .profile-image:hover + .subscriptions-info{
+          opacity: 1;
+
+      }
+
+      .thumbnail-4{
+          width: 100%;
+      }
+
+      .thumbnail-site{
+          position: relative;
+      }
+
+      .video-info-site{
+          display: grid;
+          grid-template-columns: 50px 1fr;
+
+      }
+      .channel-pic-box{
+         margin-top: 10px;
+      }
+      .channel-photo{
+          width: 36px;
+          border-radius: 50px;
+      }
+
+      .channel-photo:hover + .subscriptions-info{
+         opacity: 1;
+      }
+
+      .video-time{
+          background-color: black;
+          color: white;
+          position: absolute;
+          bottom: 8px;
+          right: 6px;
+          font-family: Roboto;
+          font-size: 12px;
+          padding: 4px;
+          font-weight: 500;
+      }
+
+          .channel-profile-pic-container .subscriptions-info{
+          position: absolute;
+          display: grid;
+          grid-template-columns: 70px 1fr;
+          width: 280px;
+          margin-top: 12px;
+          background-color: white;
+          padding: 8px;
+          border-radius: 6px;
+          opacity: 0;
+          transition: opacity 0.15s;
+          pointer-events: none;
+      }
+
+      .channel-pic-container .subscriptions-info{
+          position: absolute;
+          display: grid;
+          grid-template-columns: 70px 1fr;
+          width: 280px;
+          margin-top: 12px;
+          background-color: white;
+          padding: 8px;
+          border-radius: 6px;
+          opacity: 0;
+          transition: opacity 0.15s;
+          pointer-events: none;
+      }
+
+      .channel-picture-container .subscriptions-info{
+          position: absolute;
+          display: grid;
+          grid-template-columns: 70px 1fr;
+          width: 280px;
+          margin-top: 12px;
+          background-color: white;
+          padding: 8px;
+          border-radius: 6px;
+          opacity: 0;
+          transition: opacity 0.15s;
+          pointer-events: none;
+      }
+
+      .channel-pic-box .subscriptions-info{
+          position: absolute;
+          display: grid;
+          grid-template-columns: 70px 1fr;
+          width: 280px;
+          margin-top: 12px;
+          background-color: white;
+          padding: 8px;
+          border-radius: 6px;
+          opacity: 0;
+          transition: opacity 0.15s;
+          pointer-events: none;
+      }
+
+
+      .profile-pic2-container{
+         width: 55px;
+      }
+
+      .profile-pic2{
+          width: 100%;
+          border-radius: 50%;
+      }
+
+      .channel-info{
+         margin-top: 3px;
+      }
+
+      .channel-owner{
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 2px;
+      }
+
+      .subscriptions-stats{
+          font-family: Roboto;
+          font-size: 16px; 
+          color: rgb(75, 74, 74);
+      }
+
+
+
+
+
